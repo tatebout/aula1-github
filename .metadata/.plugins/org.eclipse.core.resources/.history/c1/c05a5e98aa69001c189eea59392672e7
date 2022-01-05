@@ -1,0 +1,30 @@
+package exercicioSecao15;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Account2Program {
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter account data");
+		System.out.print("Number");
+		int number = sc.nextInt();
+		
+		System.out.print("Holder: ");
+		sc.nextLine();
+		String holder = sc.nextLine();
+		
+		System.out.print("Initial balance: ");
+		Double balance = sc.nextDouble();
+
+		System.out.print("Initial balance: ");
+		Double withdrawLimit = sc.nextDouble();
+		
+		
+		
+		sc.close();
+	}
+}
